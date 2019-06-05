@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.training.springcore.service.SiteServiceImplTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-05T09:23:10" hostname="DESKTOP-LHAMLJH" time="0.45">
+  <properties/>
+  <testcase name="findById" classname="com.training.springcore.service.SiteServiceImplTest" time="0.448"/>
+  <testcase name="findByIdShouldReturnNullWhenIdIsNull" classname="com.training.springcore.service.SiteServiceImplTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
