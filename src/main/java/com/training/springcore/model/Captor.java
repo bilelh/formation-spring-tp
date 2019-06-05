@@ -27,6 +27,14 @@ public class Captor {
     /**
      * Constructor to use with required property
      * @param name
+     */
+    public Captor(String name ) {
+        this.name = name;
+    }
+
+    /**
+     * Constructor to use with required property
+     * @param name
      * @param powerSource
      */
     public Captor(String name , PowerSource powerSource) {
