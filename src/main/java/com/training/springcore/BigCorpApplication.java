@@ -18,5 +18,6 @@ public class BigCorpApplication {
         System.out.println(siteService.findById("siteA"));
         SiteService siteService2 = context.getBean(SiteService.class);
         System.out.println(siteService2.findById("siteA"));
+        siteService2.readFile("classpath:example.txt");
     }
 }

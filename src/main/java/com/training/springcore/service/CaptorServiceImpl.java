@@ -15,6 +15,8 @@ public class CaptorServiceImpl implements CaptorService{
     private MeasureService simulatedMeasureService;
     private MeasureService realMeasureService;
 
+    public CaptorServiceImpl() {}
+
     @Autowired
     public CaptorServiceImpl(MeasureService fixedMeasureService,
                              MeasureService simulatedMeasureService,
@@ -23,6 +25,7 @@ public class CaptorServiceImpl implements CaptorService{
         this.simulatedMeasureService = simulatedMeasureService;
         this.realMeasureService = realMeasureService;
     }
+
 
     @Override
     public Set<Captor> findBySite(String siteId) {

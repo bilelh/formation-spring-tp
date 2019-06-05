@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.training.springcore.service.measure.RealMeasureServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-05T14:02:09" hostname="DESKTOP-LHAMLJH" time="0.114">
-  <properties/>
-  <testcase name="readMeasuresThrowsExceptionWhenArgIsNull" classname="com.training.springcore.service.measure.RealMeasureServiceTest" time="0.084"/>
-  <testcase name="readMeasures" classname="com.training.springcore.service.measure.RealMeasureServiceTest" time="0.028"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
