@@ -5,18 +5,17 @@ import com.training.springcore.service.CaptorServiceImpl;
 import com.training.springcore.service.SiteService;
 import com.training.springcore.service.SiteServiceImpl;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Lazy;
 
+@ComponentScan
 @Configuration
 public class BigCorpApplicationConfig {
 
-    @Bean (name="siteService")
     public SiteService siteService() {
         return new SiteServiceImpl(captorService());
     }
 
-    @Bean (name="captorService")
     public CaptorService captorService() {
         return new CaptorServiceImpl();
     }
