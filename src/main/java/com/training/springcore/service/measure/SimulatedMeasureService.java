@@ -3,11 +3,13 @@ package com.training.springcore.service.measure;
 import com.training.springcore.model.Captor;
 import com.training.springcore.model.Measure;
 import com.training.springcore.model.MeasureStep;
+import org.springframework.stereotype.Service;
 
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class SimulatedMeasureService implements MeasureService {
     @Override
     public List<Measure> readMeasures(Captor captor, Instant start, Instant end, MeasureStep step) {
