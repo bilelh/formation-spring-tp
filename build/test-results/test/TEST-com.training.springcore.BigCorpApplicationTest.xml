@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.training.springcore.BigCorpApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-06T10:37:40" hostname="DESKTOP-LHAMLJH" time="0.62">
+  <properties/>
+  <testcase name="run" classname="com.training.springcore.BigCorpApplicationTest" time="0.62"/>
+  <system-out><![CDATA[Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@1d5f81f7
+==========================================================
+Application [BigCorp application (dev)] - version : 1
+plus d'informations sur https://bigcorp.com 
+==========================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

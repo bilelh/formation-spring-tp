@@ -3,9 +3,12 @@ package com.training.springcore;
 import com.training.springcore.utils.OutputCapture;
 import org.junit.Rule;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.junit.Assert.*;
+
 
 public class BigCorpApplicationTest {
 
@@ -17,6 +20,6 @@ public class BigCorpApplicationTest {
     @Test
     public void run() {
         application.run();
-        assertThat(output.toString(), containsString("Application startup"));
+        assertThat(output.toString(), containsString("BigCorp application (dev)"));
     }
 }

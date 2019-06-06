@@ -3,11 +3,20 @@ package com.training.springcore.service;
 import com.training.springcore.model.Captor;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Set;
 
 
+@RunWith(SpringRunner.class)
+@ContextConfiguration(classes =
+        {SiteServiceImplTest.SiteServiceTestConfiguration.class})
 public class CaptorServiceImplTest {
+
+    @Autowired
     private CaptorServiceImpl captorService = new CaptorServiceImpl();
 
     @Test

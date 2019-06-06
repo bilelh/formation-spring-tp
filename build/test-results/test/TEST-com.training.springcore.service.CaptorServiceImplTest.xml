@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.training.springcore.service.CaptorServiceImplTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-06T10:37:40" hostname="DESKTOP-LHAMLJH" time="0.045">
+  <properties/>
+  <testcase name="findBySite" classname="com.training.springcore.service.CaptorServiceImplTest" time="0.044"/>
+  <testcase name="findBySiteShouldReturnNullWhenIdIsNull" classname="com.training.springcore.service.CaptorServiceImplTest" time="0.0"/>
+  <system-out><![CDATA[Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@25a0403c
+]]></system-out>
+  <system-err><![CDATA[juin 06, 2019 12:37:40 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFOS: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+juin 06, 2019 12:37:40 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getTestExecutionListeners
+INFOS: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@40f433d3, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3ab18f7b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@58cb159]
+]]></system-err>
+</testsuite>
