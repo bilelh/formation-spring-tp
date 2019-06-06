@@ -1,28 +1,20 @@
-package com.training.springcore;
+package com.training.springcore.config;
 
 
 import com.training.springcore.model.ApplicationInfo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.annotation.*;
 import org.springframework.core.env.Environment;
 
 import java.util.Set;
 
-@ComponentScan
-@Configuration
-@PropertySource("classpath:application.properties")
-public class BigCorpApplicationConfig {
 
+@Configuration
+@Profile("!prod")
+@PropertySource("classpath:application.properties")
+public class BigcorpApplicationDevConfig {
     @Autowired
     private Environment environment;
-    /*ApplicationInfo app;
-    String name;
-    Integer version;
-    Set<String> emails;
-    String webSiteUrl;*/
 
     @Bean
     public ApplicationInfo applicationInfo() {
@@ -34,3 +26,5 @@ public class BigCorpApplicationConfig {
     }
 
 }
+
+
