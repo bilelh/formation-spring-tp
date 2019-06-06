@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.training.springcore.service.SiteServiceImplTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-05T16:15:39" hostname="DESKTOP-LHAMLJH" time="1.494">
+<testsuite name="com.training.springcore.service.SiteServiceImplTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-06T07:43:27" hostname="DESKTOP-LHAMLJH" time="2.007">
   <properties/>
-  <testcase name="findById" classname="com.training.springcore.service.SiteServiceImplTest" time="0.614"/>
-  <testcase name="readFileFromClasspath" classname="com.training.springcore.service.SiteServiceImplTest" time="0.011"/>
-  <testcase name="readFileFromFileSystem" classname="com.training.springcore.service.SiteServiceImplTest" time="0.009"/>
-  <testcase name="findByIdShouldReturnNullWhenIdIsNull" classname="com.training.springcore.service.SiteServiceImplTest" time="0.004"/>
-  <testcase name="readFileFromUrl" classname="com.training.springcore.service.SiteServiceImplTest" time="0.851"/>
+  <testcase name="findById" classname="com.training.springcore.service.SiteServiceImplTest" time="0.687"/>
+  <testcase name="readFileFromClasspath" classname="com.training.springcore.service.SiteServiceImplTest" time="0.017"/>
+  <testcase name="readFileFromFileSystem" classname="com.training.springcore.service.SiteServiceImplTest" time="0.019"/>
+  <testcase name="findByIdShouldReturnNullWhenIdIsNull" classname="com.training.springcore.service.SiteServiceImplTest" time="0.002"/>
+  <testcase name="readFileFromUrl" classname="com.training.springcore.service.SiteServiceImplTest" time="1.278"/>
   <system-out><![CDATA[Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@4f62c91e
 Appel de findById :com.training.springcore.service.SiteServiceImpl@4f62c91e
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -30,9 +30,9 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ]]></system-out>
-  <system-err><![CDATA[juin 05, 2019 6:15:39 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+  <system-err><![CDATA[juin 06, 2019 9:43:26 AM org.springframework.test.context.support.AbstractTestContextBootstrapper getDefaultTestExecutionListenerClassNames
 INFOS: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-juin 05, 2019 6:15:39 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getTestExecutionListeners
+juin 06, 2019 9:43:26 AM org.springframework.test.context.support.AbstractTestContextBootstrapper getTestExecutionListeners
 INFOS: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@295b3ea, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@44ca7a15, org.springframework.test.context.support.DirtiesContextTestExecutionListener@45de7297]
 ]]></system-err>
 </testsuite>
